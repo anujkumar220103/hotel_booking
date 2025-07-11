@@ -1,11 +1,11 @@
 import express from "express"
 import "dotenv/config";
 import cors from "cors";
-import connetDB from "./configs/db.js"
+import connectDB from "./configs/db.js"
 import { clerkMiddleware } from '@clerk/express'
 import clerkWebhooks from "./controllers/clerkWebhooks.js"
 
-connetDB()   //form db.js
+connectDB()   //form db.js
 
 const app = express()
 app.use(cors()) //Enable Cross-Origin Resource Sharing
@@ -15,9 +15,9 @@ app.use(express.json())
 app.use(clerkMiddleware())
 
 //API to listen clerk Webhooks
-app.post("/api/clerk", express.raw({ type: "application/json" }), clerkWebhooks);
+app.use("/api/clerk", clerkWebhooks);
 
-app.get('/', (req, res)=> res.send("API is working fine"))
+app.get('/', (req, res)=> res.send("API is working"))
 
 const PORT = process.env.PORT || 3000;
 
