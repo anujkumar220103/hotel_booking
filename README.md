@@ -2,12 +2,10 @@
 
 Welcome to **QuickStay**, a full-stack hotel booking system where users can explore hotels, book rooms, receive confirmation emails, and securely pay via Stripe. Admins can manage hotels and bookings from a dedicated dashboard. Built with the **MERN stack**, integrated with **Clerk Auth**, and deployed on **Vercel**.
 
-🌐 **Live Demo**: [https://quickstay-woad.vercel.app](https://quickstay-woad.vercel.app)
-
----
-
 <p align="center">
-  <img src="https://img.shields.io/badge/LIVE-QuickStay-28a745?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="https://quickstay-woad.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/LIVE-QuickStay-28a745?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
   <img src="https://img.shields.io/badge/BUILD-PASSING-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/FRONTEND-React-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
   <img src="https://img.shields.io/badge/BACKEND-Express-black?style=for-the-badge&logo=express&logoColor=white" />
@@ -54,7 +52,6 @@ Welcome to **QuickStay**, a full-stack hotel booking system where users can expl
 
 ### 🔧 Dev Tools
 - Vite
-- ESLint
 - Nodemon
 - dotenv
 - GitHub + Vercel
@@ -157,19 +154,9 @@ Hey there! I'm **Anuj Kumar Gond**
 - 🔭 Currently working on: More full-stack projects & improving backend architecture
 - 🌱 Learning: Advanced DevOps, GraphQL, and scalable system design
 - 💬 Ask me about: React, Node.js, MongoDB, Clerk Auth, Stripe, REST APIs
-- 📫 Let's connect:
-
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/anuj-kumar-gond-943204211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
-  [![Email](https://img.shields.io/badge/Email-gmail-red?style=flat&logo=gmail)](24204031218@stu.manit.ac.in)
-
----
-
-💡 *"Building projects is the best way to learn — and sharing them is the best way to grow!"*
 
 
-#FullStack #MERNStack #React #NodeJS #MongoDB
-#HotelBooking #StripePayments #ClerkAuth #Nodemailer
-#TailwindCSS #ProjectShowcase #Vite #Vercel #BookingSystem
+
 
 
 
